@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		
+		<title>World guide by Amin Naji</title>
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+		<div class="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="index.html" class="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-type">
+							<h1 class="site-title">Weather on the Go</h1>
+							<small class="site-description">Weather App</small>
+						</div>
+					</a>
+
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<b>
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="news.html">News</a></li>
+							<li class="menu-item"><a href="live-cameras.html">Live cameras</a></li>
+							<li class="menu-item"><a href="photos.html">Photos</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+							</b>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+
+				</div>
+			</div> <!-- .site-header -->
+
+			<!-- weather widget start --><div style="background-color: #17252A;" id="m-booked-vertical-one-prime-52048"> <div class="weather-customize weather-booked-vertical-one-prime" style="width:300px;" >  <div class="booked-vertical-prime-in"> <div class="booked-vertical-prime"> <div class="bwop-city">Kabul</div> <div class="bwop-icon wm01 "></div> <div class="booked-bwop-today"> <div class="booked-bwop-today-temperature"> <div class="booked-wzs-bwop-val"> <div class="booked-bwop-number"><span class="plus">+</span>29</div> <div class="booked-bwop-dergee"> <div class="booked-wzs-bwop-dergee-val">&deg;</div> <div class="booked-wzs-bwop-dergee-name">C</div> </div> </div> </div> <div class="booked-bwop-today-extreme"> <div class="booked-bwop booked-pd-h"><span>High:</span><span class="plus">+</span>32</div> <div class="booked-bwop booked-pd-l"><span>Low:</span><span class="plus">+</span>19</div> </div> </div> <div class="bwop-state"> Sunny </div> </div> </div> </div> </div><script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-prime-vertical-one.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_52048(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-vertical-one-prime-52048'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=40205;type=7;scode=124;ltid=3457;domid=w209;anc_id=64650;countday=undefined;cmetric=1;wlangID=1;color=137AE9;wwidth=300;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=52048';widgetSrc += ';wstrackId=481488220';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
+			
+			
+			<!-- calendar-->
+			<div><!DOCTYPE html>
+				<html lang="en">
+				<head>
+					<meta charset="UTF-8">
+					<meta http-equiv="X-UA-Compatible" content="IE=edge">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<link rel="stylesheet" href="style.css">
+					<link rel="stylesheet" href="cal.css">
+					
+				
+				</head>
+				<body>
+					<section>
+						<div class="box">
+							<div class="container">
+								<div id="calendar">
+				
+								</div>
+				
+							</div>
+						</div>
+				
+					</section>
+				
+					<script src="calendar.js"></script>
+					<script>
+						dycalendar.draw({
+							target:'#calendar',
+							type:'month',
+							dayformat:'full',
+							monthformat:'full',
+							highlighttargetdate:true,
+							prevnextbutton:'show'
+				
+						})
+					</script>
+				<script>
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				
+				  ga('create', 'UA-46156385-1', 'cssscript.com');
+				  ga('send', 'pageview');
+				
+				</script>
+				</body>
+				</html>
+				</div>
+				<!--calendar end-->
+			<main class="main-content">
+				<div class="fullwidth-block">
+					<div class="container">
+						<h2 class="section-title">Live cameras</h2>
+						<div class="row">
+							<div class="col-md-3 col-sm-6">
+								<div class="live-camera">
+									<b>
+									<figure class="live-camera-cover"><img src="images/new york.jpg" alt=""><a style="color: #17252A;" target="_blank" href="https://earth.google.com/web/@40.7056497,-73.9780035,0.06548325a,140982.91415964d,35y,0h,0t,0r/data=CksaSRJDCiUweDg5YzI0ZmE1ZDMzZjA4M2I6MHhjODBiOGYwNmUxNzdmZTYyGZlPDH88W0RAIYdMnldhgFLAKghOZXcgWW9yaxgCIAE"><br>New York</a></figure>
+									<h3 class="location"></h3>
+									<small class="date"></small>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="live-camera">
+									<figure class="live-camera-cover"><img src="images/los angeles.jpg" alt=""><a style="color: #17252A;" href="https://earth.google.com/web/@40.7056497,-73.9780035,0.06548325a,140982.91415964d,35y,0h,0t,0r/data=CksaSRJDCiUweDg5YzI0ZmE1ZDMzZjA4M2I6MHhjODBiOGYwNmUxNzdmZTYyGZlPDH88W0RAIYdMnldhgFLAKghOZXcgWW9yaxgCIAE"><br>Los Angeles</a></figure>
+									<h3 class="location"></h3>
+									<small class="date"></small>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="live-camera">
+									<figure class="live-camera-cover"><img src="images/chicago.jpeg" alt=""><a style="color: #17252A;" href="https://earth.google.com/web/@41.83373295,-87.73196395,180.93653956a,69283.85983917d,35y,0h,0t,0r/data=CkoaSBJCCiUweDg4MGUyYzNjZDBmNGNiZWQ6MHhhZmUwYTZhZDA5YzBjMDAwGR8WxQZm8ERAIRkFHJ1O6FXAKgdDaGljYWdvGAIgAQ"><br>Chicago</a></figure>
+									<h3 class="location"></h3>
+									<small class="date"></small>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="live-camera">
+									<figure class="live-camera-cover"><img src="images/london.jpg" alt=""><a style="color: #17252A;" href="https://earth.google.com/web/@51.50002889,-0.01803157,4.15895839a,8203.03599086d,35y,0h,0t,0r/data=CkkaRxJBCiUweDQ3ZDhhMDBiYWYyMWRlNzU6MHg1Mjk2M2E1YWRkZDUyYTk5GU-M0d_wwElAIYByJUxiWsC_KgZMb25kb24YASAB"><br>London</a></figure>
+									<h3 class="location"></h3>
+									<small class="date"></small>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="fullwidth-block" data-bg-color="#2B7A78">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="news">
+									<div class="date">New York</div>
+									<h3><a  href="https://en.wikipedia.org/wiki/New_York_City" target="_blank"><br><br><br>Read More About New York</a></h3>
+									<p>New York City (NYC), often simply called New York, is the most populous city in the United States. With an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles (784 km2), New York City is also the most densely populated major city in the United States. Located at the southern tip of the State of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban landmass. With almost 20 million people in its metropolitan statistical area and approximately 23 million in its combined statistical area, it is one of the world's most populous megacities. New York City has been described as the cultural, financial, and media capital of the world, significantly influencing commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports, and is the most photographed city in the world. Home to the headquarters of the United Nations, New York is an important center for international diplomacy, and has sometimes been called the capital of the world.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<div class="date">Paris</div>
+									<h3><a  href="https://en.wikipedia.org/wiki/Paris" target="_blank"><br><br><br>Read More About Paris</a></h3>
+									<p>Paris (French pronunciation: ​[paʁi] is the capital and most populous city of France, with an estimated population of 2,175,601 residents as of 2018, in an area of more than 105 square kilometres (41 square miles). Since the 17th century, Paris has been one of Europe's major centres of finance, diplomacy, commerce, fashion, gastronomy, science and arts. The City of Paris is the centre and seat of government of the region and province of Île-de-France, or Paris Region, which has an estimated population of 12,174,880, or about 18 percent of the population of France as of 2017. The Paris Region had a GDP of €709 billion ($808 billion) in 2017. According to the Economist Intelligence Unit Worldwide Cost of Living Survey in 2018, Paris was the second most expensive city in the world, after Singapore and ahead of Zürich, Hong Kong, Oslo and Geneva. Another source ranked Paris as most expensive, on a par with Singapore and Hong Kong, in 2018.</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="news">
+									<div class="date">Kabul</div>
+									<h3><a  href="https://en.wikipedia.org/wiki/Kabul" target="_blank"><br><br><br>Read More About Kabul</a></h3>
+									<p>Kabul ( Persian : کابل‎, romanized: Kābol) is the capital and largest city of Afghanistan, located in the eastern section of the country. It is also a municipality, forming part of the greater Kabul Province, and divided into 22 districts. According to estimates in 2020, the population of Kabul is 4.222 million, which includes all the major ethnic groups of Afghanistan. Afghanistan's only city with a population of over 1 million, Kabul serves as its political, cultural and economical center. Rapid urbanization has made Kabul the world's 75th largest city.</p>
+								</b>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="fullwidth-block">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<b>
+								<h2 class="section-title">Application features</h2>
+								<ul class="arrow-feature">
+									<li>
+										<h3>Accessibility</h3>
+										<p>You have everything you need all in one place.</p>
+									</li>
+									<li>
+										<h3>A Revolving world.</h3>
+										<p>You can read all the news about places, weather and climate.</p>
+									</li>
+									<li>
+										<h3>Live Cameras</h3>
+										<p>Live Street views of some of the most famous places and cities on earth using Google Earth's Technology.</p>
+									</li>
+								</ul>
+								</b>
+							</div>
+							<div class="col-md-4">
+								<h2 class="section-title">Weather analyssis</h2>
+								<ul class="arrow-list"><b>
+									<li><a href="https://thisisreno.com/2021/06/climate-weather-and-fire-living-with-fire-offers-4th-virtual-session-sponsored/" target="_blank">Climate, Weather and Fire</a></li>
+									<li><a href="https://www.axios.com/tpg-climavision-weather-2a1e9c9c-ee47-43e0-84bd-508a700293d5.html" target="_blank">TGP invests $100 million in Climavision, a new weather company.</a></li>
+									<li><a href="https://www.thehindubusinessline.com/news/thomas-prasad-ace-weather-blogger-and-activist-is-no-more/article34743505.ece" target="_blank">Thomas Prasad, ace weather blogger and activist, is no more.</a></li>
+									<li><a href="https://www.wearegreenbay.com/weather/beyondtheforecast/science-course-with-ryan-morse-weather-vs-climate/" target="_blank">Science course with Ryan Morse: Weather vs Climate.</a></li>
+									<li><a href="https://pajhwok.com/2021/06/06/climate-vulnerable-afghanistan-probably-hit-hardest-haidari/" target="_blank">Climate-vulnerable Afghanistan Hit Hardest.</a></li>
+									<li><a href="https://www.forbes.com/sites/josephcoughlin/2021/06/06/this-is-why-climate-change-should-be-part-of-your-retirement-plan/" target="_blank">This is why climate change should be a part of your retirement plan.</a></li>
+									<li><a href="https://www.washingtonpost.com/weather/2021/05/27/jupiter-intel-climate-risk-business/" target="_self">Business booms at climate risk start-up.</a></li>
+									</b>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								<h2 class="section-title">Gallery</h2>
+								<div class="photo-grid">
+									<a href="https://thehill.com/opinion/energy-environment/559182-how-the-summer-solstice-reminds-us-our-climate-is-beyond-hot"><img src="images/climate.jpg" alt="Crop Fields"></a>
+									<a href="https://www.bbc.com/news/uk-wales-57226425"><img src="images/eco.jpg" alt="Eco-Friendly Home"></a>
+									<a href="https://www.visitlondon.com/"><img src="images/london.jpg" alt="London"></a>
+									<a href="https://www.discoverlosangeles.com/"><img src="images/los angeles.jpg" alt="Los Angeles"></a>
+									<a href="https://www.nycgo.com/"><img src="images/new york.jpg" alt="New York City"></a>
+									<a href="https://www.choosechicago.com/"><img src="images/chicago.jpeg" alt="Chicago Bean"></a>
+									<a href="https://en.parisinfo.com/"><img src="images/paris.jpg" alt="Paris"></a>
+									<a href="https://www.britannica.com/place/Kabul"><img src="images/kabul.jpg" alt="Kabul"></a>
+									<a href="https://www.visitsingapore.com/en/"><img src="images/singapore.jpg" alt="Singapore"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main> <!-- .main-content -->
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Enter your email to subscribe...">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a>
+								<a href="#"><i class="fa fa-pinterest"></i></a>
+							</div>
+						</div>
+					</div>
+
+					<p style="color: white;" class="colophon">Copyright 2021 Naji Weather Technologies. All rights reserved.</p>
+				</div>
+			</footer> <!-- .site-footer -->
+		</div>
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
